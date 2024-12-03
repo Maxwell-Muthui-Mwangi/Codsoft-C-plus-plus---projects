@@ -32,13 +32,73 @@ unsigned char d2[5][3] = {  // Digit '2' pattern
 };
 
 // And so on for digits 3 to 9...
-unsigned char d3[5][3] = { /* Digit '3' pattern */ };
-unsigned char d4[5][3] = { /* Digit '4' pattern */ };
-unsigned char d5[5][3] = { /* Digit '5' pattern */ };
-unsigned char d6[5][3] = { /* Digit '6' pattern */ };
-unsigned char d7[5][3] = { /* Digit '7' pattern */ };
-unsigned char d8[5][3] = { /* Digit '8' pattern */ };
-unsigned char d9[5][3] = { /* Digit '9' pattern */ };
+//unsigned char d3[5][3] = { /* Digit '3' pattern */ };
+//unsigned char d4[5][3] = { /* Digit '4' pattern */ };
+//unsigned char d5[5][3] = { /* Digit '5' pattern */ };
+//unsigned char d6[5][3] = { /* Digit '6' pattern */ };
+//unsigned char d7[5][3] = { /* Digit '7' pattern */ };
+//unsigned char d8[5][3] = { /* Digit '8' pattern */ };
+//unsigned char d9[5][3] = { /* Digit '9' pattern */ };
+
+unsigned char d3[5][3] = {
+      178, 178, 178,
+      ' ', ' ', 178,
+      178, 178, 178,
+      ' ', ' ', 178,
+      178, 178, 178
+};
+
+
+unsigned char d4[5][3] = {
+      178, ' ', 178,
+      ' ', ' ', 178,
+      178, 178, 178,
+      ' ', ' ', 178,
+      ' ', ' ', 178
+};
+
+
+unsigned char d5[5][3] = {
+      178, 178, 178,
+      178, ' ', ' ', 
+      178, 178, 178,
+      178, ' ', 178,
+      178, 178, 178
+};
+
+unsigned char d6[5][3] = {
+      178, 178, 178,
+      178, ' ', ' ', 
+      178, 178, 178,
+      178, ' ', 178,
+      178, 178, 178
+};
+
+
+unsigned char d7[5][3] = {
+      178, 178, 178,
+      ' ', ' ', ' ', 
+      ' ', ' ', 178,
+      ' ', ' ', 178,
+      ' ', ' ', 178
+};
+
+unsigned char d8[5][3] = {
+      178, 178, 178,
+      178, ' ', 178,
+      178, 178, 178,
+      178, ' ', 178,
+      178, 178, 178
+};
+
+
+unsigned char d9[5][3] = {
+      178, 178, 178,
+      178, ' ', 178,
+      178, 178, 178,
+      ' ', ' ', 178,
+      ' ', ' ', 178
+};
 
 // A pattern for the separator ':' symbol (used to separate hours, minutes, and seconds)
 unsigned char sep[5][3] = {
